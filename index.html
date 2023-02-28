@@ -1,32 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html en="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XTIAN's Portfolio</title>
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<title>Hiiiiii</title>
+<style>
+p {
+text-align: center;
+font-size: 32px;
+font-family: Candara, Oswald;
+}
+img {
+display: block;
+margin: 0 auto;
+width: 25%;
+}
+</style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            Header
-        </header>
-        <main> 
-            <div class="main-container">
-                <div class="item-1">1</div>
-                <div class="item-2">2</div>
-                <div class="item-3">3</div>
-                <div class="item-4">4</div>
-                <div class="item-5">5</div>
-            </div>
-        </main>
-        <footer>
-            Footer
-        </footer>
-    </div>
+<p>Can we hang out soon?</p>
+<img src="https://media.tenor.com/zGm5acSjHCIAAAAM/cat-begging.gif">
+</body>
+<title>Botões</title>
+<style>
+#botao1 {
+position: fixed;
+top: 70%;
+left: 55%;
+transform: translate(-50%, -50%);
+}
+#botao2 {
+position: absolute;
+ left: 39%;
+  top: 68%;
+}
+</style>
+</head>
+<body>
+<button id="botao1">YES BBY!</button>
+<button id="botao2">NO</button>
+<script>
+const button2 = document.getElementById('botao2');
+let left = 40;
+button2.addEventListener('mouseover', function() {
+  if(left == 40){
+    left = 44;
+  }else{
+    left = 40;
+  }
+  this.style.left = left + '%';
+});
+
+</script>
+<script>document.getElementById('botao1').addEventListener('click', function() {
+alert('YAYY THANK U LOVE U');
+});
+</script>
 </body>
 </html>
